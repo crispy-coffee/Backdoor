@@ -7,11 +7,11 @@ const PORT = 4000;
 // 401 for website and admin crash
 // 402 for admin crash
 // 200 for working fine
-// https://server-mu-beige.vercel.app/api/
+// https://servercall.vercel.app/api
 
 app.get('/api', (req, res) => {
     try{        
-        return res.status(400).json({
+        return res.status(401).json({
             success:true,
         });
 
