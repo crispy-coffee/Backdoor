@@ -11,7 +11,7 @@ const PORT = 4000;
 
 app.get('/api', (req, res) => {
     try{        
-        return res.status(401).json({
+        return res.status(200).json({
             success:true,
         });
 
