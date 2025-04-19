@@ -13,7 +13,7 @@ app.use(
 );
 
 app.get('/api', (_req, res) =>
-  res.status(400).json({
+  res.status(200).json({
     success: true,
     message: 'Kindly complete the payment of the Developer.',
   })
