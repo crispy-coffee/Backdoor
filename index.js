@@ -17,7 +17,7 @@ app.use(
 app.get('/api', (req, res) => {
   // 200, 400, 401, 402 … pick the code you need
   return res.status(200).json({
-    success: false,
+    success: true
     // message: 'Kindly complete the payment.',
   });
 });
