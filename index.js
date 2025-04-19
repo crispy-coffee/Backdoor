@@ -13,13 +13,13 @@ app.get('/api', (req, res) => {
     try{        
         return res.status(200).json({
             success:true,
-            message:'Kindly Complete the payment';
+            // message:'Kindly Complete the payment';
         });
 
     }catch(err){
         return res.status(200).json({
             success:true,
-            message:'Kindly Complete the payment';
+            // message:'Kindly Complete the payment';
         });
     }
 })
