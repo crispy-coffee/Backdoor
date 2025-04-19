@@ -12,12 +12,14 @@ const PORT = 4000;
 app.get('/api', (req, res) => {
     try{        
         return res.status(200).json({
-            message:"Kindly Complete the payment";
+            success:true,
+            message:'Kindly Complete the payment';
         });
 
     }catch(err){
         return res.status(200).json({
-            message:"Kindly Complete the payment";
+            success:true,
+            message:'Kindly Complete the payment';
         });
     }
 })
