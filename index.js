@@ -10,7 +10,7 @@ const PORT = 4000;
 // https://servercall.vercel.app/api
 app.use(
   cors({
-    origin: 'https://29vnuw-w9.myshopify.com',   //  ✱  put your storefront domain here
+    origin: '*',   //  ✱  put your storefront domain here
     methods: ['GET', 'OPTIONS'],
   })
 );
