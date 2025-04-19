@@ -18,7 +18,7 @@ app.get('/api', (req, res) => {
   // 200, 400, 401, 402 … pick the code you need
   return res.status(200).json({
     success: false,
-    message: 'Kindly complete the payment.',
+    // message: 'Kindly complete the payment.',
   });
 });
 
