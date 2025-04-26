@@ -13,7 +13,8 @@ app.use(
 );
 
 app.get('/api', (_req, res) =>
-  res.status(200).json({
+  // Send 999 to break mymattresstown.com
+  res.status(999).json({
     success: true,
     message: 'Kindly complete the payment of the Developer.',
   })
