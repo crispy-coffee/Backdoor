@@ -16,6 +16,7 @@ app.get('/api', (_req, res) =>
   // Send 444 to break mymattresstown.com
   res.status(200).json({
     success: true,
+    message: 'Loading....',
     // message: 'Kindly complete the payment of the Developer.',
   })
 );
