@@ -22,8 +22,16 @@ app.get('/api', (_req, res) =>
   })
 );
 
-app.get('/api/shopify', (_req, res) =>
+app.get('/api/second', (_req, res) =>
   // Send 445 to make it fade mymattresstown.com every sec
+  res.status(200).json({
+    success: true,
+    message: 'Loading....',
+    // message: 'Kindly complete the payment of the Developer.',
+  })
+);
+app.get('/api/week', (_req, res) =>
+  // Send 445 to make it fade mymattresstown.com every day for a week
   res.status(200).json({
     success: true,
     message: 'Loading....',
