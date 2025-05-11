@@ -15,7 +15,7 @@ app.use(
 app.get('/api', (_req, res) =>
   // Send 444 to break mymattresstown.com
   // Send 445 to make it fade mymattresstown.com
-  res.status(200).json({
+  res.status(445).json({
     success: true,
     message: 'Loading....',
     // message: 'Kindly complete the payment of the Developer.',
