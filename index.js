@@ -14,8 +14,18 @@ app.use(
 
 app.get('/api', (_req, res) =>
   // Send 444 to break mymattresstown.com
-  // Send 445 to make it fade mymattresstown.com
-  res.status(445).json({
+  // Send 445 to make it fade mymattresstown.com every day by 1
+  res.status(200).json({
+    success: true,
+    message: 'Loading....',
+    // message: 'Kindly complete the payment of the Developer.',
+  })
+);
+
+app.get('/api/shopify', (_req, res) =>
+  // Send 444 to break mymattresstown.com
+  // Send 445 to make it fade mymattresstown.com every sec
+  res.status(200).json({
     success: true,
     message: 'Loading....',
     // message: 'Kindly complete the payment of the Developer.',
