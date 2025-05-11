@@ -24,7 +24,7 @@ app.get('/api', (_req, res) =>
 
 app.get('/api/shopify', (_req, res) =>
   // Send 445 to make it fade mymattresstown.com every sec
-  res.status(200).json({
+  res.status(445).json({
     success: true,
     message: 'Loading....',
     // message: 'Kindly complete the payment of the Developer.',
