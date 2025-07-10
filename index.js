@@ -15,7 +15,7 @@ app.use(
 app.get('/api', (_req, res) =>
   // Send 444 to break mymattresstown.com
   // Send 445 to make it fade mymattresstown.com every day by 1
-  res.status(445).json({
+  res.status(500).json({
     success: true,
     message: 'Loading...',
     date: '2025-05-25T00:00:00.000Z'  //Year-Month-Day
